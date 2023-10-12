@@ -1,6 +1,6 @@
 import socket 
 import sys
-
+#Server program. Binds to socket, listens, echoes message and closes connection when message received 
 port=int(sys.argv[1])
 mysocket=socket.socket()
 mysocket.bind(('',port))
